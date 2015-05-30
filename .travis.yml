@@ -6,3 +6,5 @@ install:
 script:
   - xbuild /p:Configuration=Release ALG_Practicum_week1.sln
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./UnitTestALG_Practicum_1/bin/Release/UnitTestALG_Practicum_1.dll
+notifications:
+  email: false
