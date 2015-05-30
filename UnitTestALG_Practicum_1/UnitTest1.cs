@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using ALG_Practicum_week1;
 
 namespace UnitTestALG_Practicum_1
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestMethod]
+        [Test]
         public void NawArrayOngeordend_constructor_test()
         {
             try
@@ -32,7 +32,7 @@ namespace UnitTestALG_Practicum_1
 
         }
 
-        [TestMethod]
+        [Test]
         public void NawArrayOngeordend_voegtoe_test()
         {
             // -Er moeten net zoveel items toegevoegd kunnen worden als de opgegeven omvang bij creatie
